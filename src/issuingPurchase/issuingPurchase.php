@@ -39,7 +39,7 @@ class IssuingPurchase extends Resource
         - walletId [string]: virtual wallet ID. ex: "5656565656565656"
         - methodCode [string]: method code. Options: "chip", "token", "server", "manual", "magstripe" or "contactless"
         - score [float]: internal score calculated for the authenticity of the purchase. null in case of insufficient data. ex: 7.6
-        - endToEndId [string]: Unique id used to identify the transaction through all of its life cycle, even before the purchase is denied or accepted and gets its usual id. ex: "679cd385642b49d096b789491e1249a5"
+        - endToEndId [string]: Unique id used to identify the transaction through all of its life cycle, even before the purchase is denied or accepted and gets its usual id. ex: "679cd385-642b-49d0-96b7-89491e1249a5"
         - tags [array of string]: array of strings for tagging returned by the sub-issuer during the authorization. ex: ["travel", "food"]
 
     ## Attributes (IssuingPurchase only):
