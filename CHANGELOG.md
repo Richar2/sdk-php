@@ -13,8 +13,8 @@ Given a version number MAJOR.MINOR.PATCH, increment:
 
 
 ## [Unreleased]
-### Fix
-- missing IssuingPurchase DocString parameters
+### Added
+- missing IssuingPurchase parameters to DocString
 
 ## [0.2.0] - 2022-07-07
 ### Added
