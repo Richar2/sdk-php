@@ -12,6 +12,7 @@ require_once(__DIR__."/utils/endToEndId.php");
 require_once(__DIR__."/utils/enum.php");
 require_once(__DIR__."/utils/environment.php");
 require_once(__DIR__."/utils/request.php");
+require_once(__DIR__."/utils/parse.php");
 require_once(__DIR__."/utils/subresource.php");
 require_once(__DIR__."/utils/resource.php");
 require_once(__DIR__."/utils/rest.php");
